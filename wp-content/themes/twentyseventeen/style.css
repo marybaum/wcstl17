@@ -2782,39 +2782,32 @@ object {
 	input,
 	select,
 	textarea {
-		font-size: 18px;
-		font-size: 1.125rem;
+		font-size: 1.125em;
 	}
 
 	h1 {
-		font-size: 30px;
-		font-size: 1.875rem;
+		font-size: 1.875em;
 	}
 
 	h2,
 	.page .panel-content .recent-posts .entry-title {
-		font-size: 26px;
-		font-size: 1.625rem;
+		font-size: 1.625em;
 	}
 
 	h3 {
-		font-size: 22px;
-		font-size: 1.375rem;
+		font-size: 1.375em;
 	}
 
 	h4 {
-		font-size: 18px;
-		font-size: 1.125rem;
+		font-size: 1.125em;
 	}
 
 	h5 {
-		font-size: 13px;
-		font-size: 0.8125rem;
+		font-size: 0.8125em;
 	}
 
 	h6 {
-		font-size: 16px;
-		font-size: 1rem;
+		font-size: 1em;
 	}
 
 	.entry-content blockquote.alignleft,
@@ -2932,6 +2925,15 @@ object {
 	.entry-content blockquote.alignleft,
 	.entry-content blockquote.alignright {
 		font-size: 1em;
+	}
+	
+	h1:first-child,
+	h2:first-child,
+	h3:first-child,
+	h4:first-child,
+	h5:first-child,
+	h6:first-child {
+		font-size: 120%;
 	}
 
 	/* Layout */
