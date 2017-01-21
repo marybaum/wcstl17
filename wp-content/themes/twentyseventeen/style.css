@@ -1669,18 +1669,17 @@ body.page:not(.twentyseventeen-front-page) .entry-title {
 }
 
 body:not(.twentyseventeen-front-page) .entry-header {
+	float: left;
+	font-size: 2.4em;
 	padding: 1em 0;
+	width: 24%;
 }
 
-body:not(.twentyseventeen-front-page) .entry-header,
 body:not(.twentyseventeen-front-page) .entry-content,
 body:not(.twentyseventeen-front-page) #comments {
-	margin-left: auto;
-	margin-right: auto;
-}
-
-body:not(.twentyseventeen-front-page) .entry-header {
-	padding-top: 0;
+	float: right;
+	padding: 1em 0;
+	width: 67%;
 }
 
 .blog .entry-meta a.post-edit-link,
@@ -1717,17 +1716,6 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .archive.page-one-column:not(.has-sidebar) .page-header,
 .archive.page-one-column:not(.has-sidebar) #primary {
 	margin: 0;
-}
-
-@media all and (min-width: 40em) {
-	
-	.single-post:not(.has-sidebar) #primary,
-	.page.page-one-column:not(.twentyseventeen-front-page) #primary,
-	.archive.page-one-column:not(.has-sidebar) .page-header,
-	.archive.page-one-column:not(.has-sidebar) #primary {
-		columns: 3;
-}
-	
 }
 
 .single-featured-image-header {
@@ -3371,8 +3359,7 @@ object {
 
 	.single-post .entry-title,
 	.page .entry-title {
-		font-size: 26px;
-		font-size: 1.625rem;
+		font-size: 2.5em;
 	}
 
 	.comments-pagination,
