@@ -1760,7 +1760,8 @@ body:not(.twentyseventeen-front-page) .entry-content ul li {
 	margin: 0;
 }
 
-.single-featured-image-header {
+.colors-custom .site-header,
+.colors-custom .single-featured-image-header {
 	background-color: #fff;
 }
 
