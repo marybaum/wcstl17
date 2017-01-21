@@ -1681,6 +1681,14 @@ body:not(.twentyseventeen-front-page) #comments {
 	width: 67%;
 }
 
+body:not(.twentyseventeen-front-page) .entry-content h2 {
+	font-size: 2em;
+}
+
+body:not(.twentyseventeen-front-page) .entry-content ul li {
+	margin-left: 2em;
+}
+
 .blog .entry-meta a.post-edit-link,
 .archive .entry-meta a.post-edit-link,
 .search .entry-meta a.post-edit-link {
