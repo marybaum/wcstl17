@@ -1537,10 +1537,10 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 .page .panel-content .entry-title,
 .page-title,
 body.page:not(.twentyseventeen-front-page) .entry-title {
-	color: #058;
-	font-size: 1em;
-	font-weight: 800;
-	letter-spacing: 0.14em;
+	color: #07a;
+	font-size: 3em;
+	font-weight: 300;
+	letter-spacing: 0.4em;
 	text-transform: uppercase;
 }
 
