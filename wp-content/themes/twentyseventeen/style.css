@@ -1703,14 +1703,16 @@ body:not(.twentyseventeen-front-page) #comments {
 }
 
 body:not(.twentyseventeen-front-page) .entry-content h2 {
+	color: #09d;
 	font-size: 2.7em;
 	column-span: all;
 	padding: .5em 0;
 }
 
 body:not(.twentyseventeen-front-page) .entry-content h3 {
+	color: #07a;
 	font-size: 2.4em;
-	font-weight: 500;
+	font-weight: 400;
 	column-span: all;
 }
 
@@ -1727,7 +1729,8 @@ body:not(.twentyseventeen-front-page) .entry-content ul li {
 .blog .entry-meta a.post-edit-link,
 .archive .entry-meta a.post-edit-link,
 .search .entry-meta a.post-edit-link {
-	color: #058;
+	background: #09d;
+	color: #fff;
 	display: inline-block;
 	margin-left: 1em;
 	white-space: nowrap;
@@ -1769,6 +1772,7 @@ body:not(.twentyseventeen-front-page) .entry-content ul li {
 	display: block;
 	margin: 0;
 	max-width: none;
+	width: 100%;
 }
 
 .single-wcb_sponsor .single-featured-image-header img {
