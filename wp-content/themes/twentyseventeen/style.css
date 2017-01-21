@@ -1503,7 +1503,7 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 
 .site-content-contain {
 	background-color: #fff;
-	padding: 2.5em 10%;
+	padding: 4.5em 10%;
 	position: relative;
 }
 
@@ -1681,8 +1681,25 @@ body:not(.twentyseventeen-front-page) #comments {
 	width: 67%;
 }
 
+@media all and (min-width: 40em) {
+	
+	body:not(.twentyseventeen-front-page) .entry-content {
+		columns: 2;
+	}
+	
+}
+
+@media all and (min-width: 64em) {
+	
+	body:not(.twentyseventeen-front-page) .entry-content {
+		columns: 3;
+	}
+	
+}
+
 body:not(.twentyseventeen-front-page) .entry-content h2 {
 	font-size: 2em;
+	column-span: all;
 }
 
 body:not(.twentyseventeen-front-page) .entry-content ul li {
@@ -3361,7 +3378,7 @@ object {
 	/* Posts */
 
 	.site-content {
-		padding: 5.5em 0 0;
+		padding: 0;
 	}
 
 	.single-post .entry-title,
