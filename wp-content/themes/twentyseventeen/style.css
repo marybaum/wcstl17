@@ -1763,8 +1763,7 @@ body:not(.twentyseventeen-front-page) .entry-content ul li {
 	margin: 0;
 }
 
-.colors-custom .site-header,
-.colors-custom .single-featured-image-header {
+#page .colors-custom .single-featured-image-header {
 	background-color: #fff;
 }
 
