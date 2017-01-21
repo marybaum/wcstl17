@@ -1774,8 +1774,7 @@ body:not(.twentyseventeen-front-page) .entry-content ul li {
 	width: 100%;
 }
 
-#page .single-wcb_sponsor .single-featured-image-header img {
-	background: #fff;
+.single-wcb_sponsor .single-featured-image-header img {
 	margin: 0 0 0 35%;
 	width: 25%;
 }
