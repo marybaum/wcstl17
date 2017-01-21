@@ -1973,8 +1973,28 @@ body:not(.twentyseventeen-front-page) .entry-content ul li {
 }
 
 .site-footer .wrap {
-	padding: 2em 8%;
+	padding: 2em 8% 0 0 ;
 }
+
+.site-footer aside {
+	float: right;
+	width: 59%;
+}
+
+.site-footer .widget-column.footer-widget-1,
+.site-footer .widget-column.footer-widget-2,
+.social-navigation {
+	display: inline-block;
+	margin: 0 3% 0 0;
+	width: 32%;
+}
+
+	.social-navigation .site-info {
+		margin: 0 0 0 6%;
+		display: block;
+		padding: .7em 0 0;
+		width: 90%;
+	}
 
 /* Footer widgets */
 
@@ -3051,7 +3071,7 @@ object {
 
 	.title-tagline-hidden.home.has-header-image .custom-logo-link img,
 	.title-tagline-hidden.home.has-header-video .custom-logo-link img {
-		max-height: 200px;
+		max-height: 14em;
 	}
 
 	.site-title {
@@ -3619,37 +3639,30 @@ object {
 	/* Footer */
 
 	.site-footer {
-		font-size: 14px;
-		font-size: 0.875rem;
+		color: #fff;
+		font-size: 0.875em;
 		line-height: 1.6;
 		margin-top: 3em;
 	}
-
-	.site-footer .widget-column.footer-widget-1 {
-		float: left;
-		width: 36%;
-	}
-
-	.site-footer .widget-column.footer-widget-2 {
+	
+	.site-footer aside {
 		float: right;
-		width: 58%;
+		width: 67%;
 	}
 
+	.site-footer .widget-column.footer-widget-1,
+	.site-footer .widget-column.footer-widget-2,
 	.social-navigation {
-		clear: left;
-		float: left;
-		margin-bottom: 0;
-		width: 36%;
+		display: inline-block;
+		margin: 0 3% 0 0;
+		width: 32%;
 	}
 
-	.site-info {
-		float: left;
-		padding: 0.7em 0 0;
-		width: 58%;
-	}
-
-	.social-navigation + .site-info {
-		margin-left: 6%;
+	.social-navigation .site-info {
+		margin: 0 0 0 6%;
+		display: block;
+		padding: .7em 0 0;
+		width: 90%;
 	}
 
 	.site-info .sep {
