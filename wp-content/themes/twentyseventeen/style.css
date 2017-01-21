@@ -1456,6 +1456,7 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 
 .panel-content {
 	position: relative;
+	margin: 0 10%;
 }
 
 .panel-content .wrap {
@@ -1508,7 +1509,7 @@ body:not(.has-header-image):not(.has-header-video) .custom-header-media {
 }
 
  .home .site-content-contain {
-	padding: 2.5em 10%;
+	padding: 2.5em 0;
 }
 
 /*--------------------------------------------------------------
