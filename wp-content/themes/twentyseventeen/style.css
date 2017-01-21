@@ -1716,7 +1716,7 @@ body:not(.twentyseventeen-front-page) .entry-header {
 .page.page-one-column:not(.twentyseventeen-front-page) #primary,
 .archive.page-one-column:not(.has-sidebar) .page-header,
 .archive.page-one-column:not(.has-sidebar) #primary {
-	margin: 1em 10%;
+	margin: 0;
 }
 
 @media all and (min-width: 40em) {
@@ -1736,8 +1736,9 @@ body:not(.twentyseventeen-front-page) .entry-header {
 
 .single-featured-image-header img {
 	display: block;
-	margin: auto;
+	margin: 0;
 	max-width:	none;
+	width: 100%;
 	
 }
 
