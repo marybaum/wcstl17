@@ -1700,6 +1700,27 @@ body:not(.twentyseventeen-front-page) #comments {
 		columns: 3;
 	}
 	
+	.wcorg-organizers {
+		column-span: all;
+	}
+
+	.wcorg-organizer {
+		margin: 0 0 2em;
+	}
+
+	body:not(.twentyseventeen-front-page) .entry-content .wcorg-organizer h2 {
+		column-span: all;
+		font-size: 2em;
+		float: left;
+		margin: 0 .1em 0 0;
+		padding: 0 .5em;
+		width: 21%;
+	}
+
+	.wcorg-organizer-description {
+		columns: 2;
+		width: 66%;
+	}
 }
 
 body:not(.twentyseventeen-front-page) .entry-content h2 {
