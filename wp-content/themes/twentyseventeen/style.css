@@ -2006,7 +2006,11 @@ body:not(.twentyseventeen-front-page) .entry-content ul li {
 --------------------------------------------------------------*/
 
 .site-footer {
+	background: #09d;
 	border: none;
+	margin: 0;
+	max-width: none;
+	width: 100%;
 }
 
 .site-footer .wrap {
