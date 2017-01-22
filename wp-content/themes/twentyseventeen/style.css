@@ -1705,21 +1705,28 @@ body:not(.twentyseventeen-front-page) #comments {
 	}
 
 	.wcorg-organizer {
-		margin: 0 0 2em;
+		margin: 2em 0;
 	}
 
 	body:not(.twentyseventeen-front-page) .entry-content .wcorg-organizer h2 {
 		column-span: all;
-		font-size: 2em;
+		font-size: 1.6em;
 		float: left;
 		margin: 0 .1em 0 0;
-		padding: 0 .5em;
-		width: 21%;
+		padding: 0;
+		width: 20%;
 	}
-
+	
 	.wcorg-organizer-description {
 		columns: 2;
-		width: 66%;
+		float: right;
+		width: 80%;
+		height: 12em;
+	}
+
+	.wcorg-organizer-description img {
+		float: left;
+		margin: .5em 0 0 -50%;
 	}
 }
 
